@@ -4,7 +4,7 @@ Module 15 Challenge - Data Visuauzation using Tableau
 ## Resources
 Operating Platform: Windows 11 Pro [Buy Windows 11 Pro](https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4?rtc=1) Build 22621</br>
 IDE Software: [Tableau Desktop](https://www.tableau.com/products/desktop/download) Build 2022.3.1 (20223.22.11.08.0821) 64-bit</br>
-Source Data: [Historical 201908-citibike-tripdata](https://s3.amazonaws.com/tripdata/201908-citibike-tripdata.csv.zip)
+Source Data: [Historical 201908-citibike-tripdata](https://s3.amazonaws.com/tripdata/201908-citibike-tripdata.csv.zip)</br>
 Resource files: ADD COMPLETED SCRIPT HERE</br>
 Program Languages: Jupyter Notebook [Install](https://jupyter.org/install)
 Jupyter Packages: [Pandas](https://pandas.pydata.org/), [datetime](https://pandas.pydata.org/docs/user_guide/timeseries.html)
@@ -32,31 +32,31 @@ Using Tableau, the following Visualizations were created to display:
 * How many trips are taken by the hour for each day of the week, for all riders and genders.
 * A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender.
 
-# Checkout Times for Users
+### Checkout Times for Users
 
 This graph depicts the lenght of time (in hours) that the bikes are checked out for all riders. A bulk of the bikes are checked out for less than 1 hour with a much smaller precentage being checked out for greater than 2 hours. Because there is such a large trend for quick rentals it appears that the bikes are not being moved across town. Setting a good location of where the bikes are rentable will ensure they are constantly being used
 
 [Checkout Times for Users](/Resources/CheckoutTimesForUsers.jpg)
 
-# Checkout Times by Gender
+### Checkout Times by Gender
  
 In this graph, the overwhelming majority of the bike checkouts are by males vs female and unknowns by at least 3 to 1. This information can be used to help target male customers and another focused marketing opertunity can be used to help attrack more female rides into the business. 
 
 [Checkout Times by Gender](/Resources/CheckoutTimesByGender.jpg)
 
-# Trips by Weekday for Each Hour
+### Trips by Weekday for Each Hour
 
 This is the first of several heatmaps used to display which times the bikes are used and the days which the heavest usage occures. A majority of the usage comes from M - F during "commuter hours", between 6 AM and 9AM then again starting around 4PM to 7 to 8PM. The weekend times shift to more general tourist times, for Saturday the usage is between 9AM and 7PM and on Sunday the usage trickles down between 11AM to 5PM. 
 
 [Trips by Weekday Per Hour](/Resources/TripsByWeekdayPerHour.jpg)
 
-# Trips by Gender (Weekday per Hour)
+### Trips by Gender (Weekday per Hour)
 
 This utilization heatmap displays a lower level of usage by female users vs Males. The timeframes are still the same with Mon - Fri usage during commuter hours and a little usage by females during the same timeframe. 
 
 [Trips by Gender - Weekday per Hor](/Resources/TripsByGenderWeekdayPerHour.jpg)
 
-# User Types by Gender by Weekday
+### User Types by Gender by Weekday
 
 Using this heatmap breakdown of service subscribers vs non subscribers and gender can help marketing to help identify which usergroups might use the services the most. Usage for subscribers vs non customers is highers across the board with Males leading the most consistance usage vs females. 
 
@@ -73,6 +73,3 @@ The next slide shows the usage of each bike inside the bikeshare company. There 
 [Bike Utilization](StoryBikeUtilization.jpg)
 
 The full Tablue file is located on their public site, you can view the Story by using the included [link](https://public.tableau.com/app/profile/jason.smith2061/viz/Mod15Challenge/Story1) 
-
-
-
