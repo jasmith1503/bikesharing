@@ -2,7 +2,7 @@
 Module 15 Challenge - Data Visualization using Tableau
 
 ## Resources
-Operating Platform: Windows 11 Pro - Build 22621[Buy Windows 11 Pro](https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4?rtc=1)</br>
+Operating Platform: Windows 11 Pro - Build 22621 [Buy Windows 11 Pro](https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4?rtc=1)</br>
 IDE Software: [Tableau Desktop](https://www.tableau.com/products/desktop/download) Build 2022.3.1 (20223.22.11.08.0821) 64-bit</br>
 Source Data: [Historical 201908-citibike-tripdata](https://s3.amazonaws.com/tripdata/201908-citibike-tripdata.csv.zip)</br>
 Resource files: [NYC Citibike Challenge](NYC_Citibike_Challenge.ipynb)</br>
@@ -24,7 +24,7 @@ citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='
 The cleaned data is then exported to the file "NYC_CityBike_data_cleaned.csv". 
 Note: Due to file size limitations a copy is not located on Github.com
 
-![NYC_CitiBike_Challenge](/NYC_CitiBike_Challenge.ipynb)
+[NYC_CitiBike_Challenge](/NYC_CitiBike_Challenge.ipynb)
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
 Using Tableau, the following Visualizations were created to display:  
