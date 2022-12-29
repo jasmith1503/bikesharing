@@ -5,8 +5,8 @@ Module 15 Challenge - Data Visuauzation using Tableau
 Operating Platform: Windows 11 Pro [Buy Windows 11 Pro](https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4?rtc=1) Build 22621</br>
 IDE Software: [Tableau Desktop](https://www.tableau.com/products/desktop/download) Build 2022.3.1 (20223.22.11.08.0821) 64-bit</br>
 Source Data: [Historical 201908-citibike-tripdata](https://s3.amazonaws.com/tripdata/201908-citibike-tripdata.csv.zip)</br>
-Resource files: ADD COMPLETED SCRIPT HERE</br>
-Program Languages: Jupyter Notebook [Install](https://jupyter.org/install)
+Resource files: [NYC Citibike Challenge](NYC_Citibike_Challenge.ipynb)</br>
+Program Languages: Jupyter Notebook [Install](https://jupyter.org/install)</br>
 Jupyter Packages: [Pandas](https://pandas.pydata.org/), [datetime](https://pandas.pydata.org/docs/user_guide/timeseries.html)
 
 ## Overview
